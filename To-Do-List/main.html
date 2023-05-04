@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To Do List</h1>
+    <div id="container">
+        <input type="text" name="item" class="add-task" id="add" placeholder="Enter task" data-helloworld="dfadfa" required>
+        <span id="total-tasks">Total tasks: <span id="task-counter">0</span></span>
+        <ul id="list">
+            <!-- <li>
+                <input type="checkbox" class="checkbox-item" id="${task.id}" ${task.done ? 'checked': ''}>
+                <label for="${task.id}">${task.text}</label>
+                <b class="delete-item" data-id="${task.id}">X</b>
+            </li> -->
+        </ul>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

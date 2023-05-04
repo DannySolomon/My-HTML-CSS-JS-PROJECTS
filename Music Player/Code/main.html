@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" href="maincss.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="#">
+                <img src="D:\Practice HTML CSS\Music Player\Images\logo.png">
+            </a>
+        </div>
+        <div id="musicplayername">
+            Danny's Music
+        </div>
+        <div id="section">
+            Favourites
+        </div>
+        <div id="searchbar">
+            <form id = "searching">
+                <div id="searchbutton">
+                    <i class="fa-sharp fa-solid fa-magnifying-glass button-spacing"></i>
+                </div>
+                <div id="searcharea">
+                    <input type="text" class="Search" placeholder="Search">
+                </div>
+                <div id="voicesearchbutton">
+                    <i class="fa-solid fa-microphone button-spacing"></i>
+                </div>
+            </form>
+        </div>
+        <div id="notification">
+            <i class="fa-sharp fa-regular fa-bell button-spacing"></i>
+        </div>
+        <div id="profile">
+            <img src="D:\Practice HTML CSS\Music Player\Images\profile-image.jpg">
+        </div>
+    </header>
+    <div id="mainbody">
+        <main>
+            <div id="floating-songs">
+                <div class="floating-window"><img src="D:\Practice HTML CSS\Music Player\Images\music-art1.jpg"></div>
+                <div class="floating-window"><img src="D:\Practice HTML CSS\Music Player\Images\music-art2.jpg"></div>
+                <div class="floating-window"><img src="D:\Practice HTML CSS\Music Player\Images\music-art3.jpg"></div>
+                <div class="floating-window"><img src="D:\Practice HTML CSS\Music Player\Images\music-art4.jpg"></div>
+                <div class="floating-window"><img src="D:\Practice HTML CSS\Music Player\Images\music-art5.jpg"></div>
+                <div class="floating-window"><img src="D:\Practice HTML CSS\Music Player\Images\music-art6.jpg"></div>
+            </div>
+            <div id="latest-release">
+                <div id="latest-release-title">Latest Release</div>
+                <div id="latest-release-content">
+
+                    <div class="latest-release-records">
+                        <div class="latest-release-record-image"><img src="D:\Practice HTML CSS\Music Player\Images\music-art2.jpg"></div>
+                        <div class="latest-release-record-title-date">
+                            <div class="latest-release-record-title">Abstract</div>
+                            <div class="latest-release-record-date">24th Jan</div>
+                        </div>
+                        <div class="latest-release-record-dropdown-time">
+                            <div class="latest-release-record-dropdown"><i class="fa-solid fa-ellipsis"></i></div>
+                            <div class="latest-release-record-time">4:44</div>
+                        </div>
+                    </div>
+
+                    <div class="latest-release-records">
+                        <div class="latest-release-record-image"><img src="D:\Practice HTML CSS\Music Player\Images\music-art3.jpg"></div>
+                        <div class="latest-release-record-title-date">
+                            <div class="latest-release-record-title">DJ VEERA</div>
+                            <div class="latest-release-record-date">24th Jan</div>
+                        </div>
+                        <div class="latest-release-record-dropdown-time">
+                            <div class="latest-release-record-dropdown"><i class="fa-solid fa-ellipsis"></i></div>
+                            <div class="latest-release-record-time">4:44</div>
+                        </div>
+                    </div>
+
+                    <div class="latest-release-records">
+                        <div class="latest-release-record-image"><img src="D:\Practice HTML CSS\Music Player\Images\music-art4.jpg"></div>
+                        <div class="latest-release-record-title-date">
+                            <div class="latest-release-record-title">My Turn</div>
+                            <div class="latest-release-record-date">1st Feb</div>
+                        </div>
+                        <div class="latest-release-record-dropdown-time">
+                            <div class="latest-release-record-dropdown"><i class="fa-solid fa-ellipsis"></i></div>
+                            <div class="latest-release-record-time">4:44</div>
+                        </div>
+                    </div>
+
+                    <div class="latest-release-records">
+                        <div class="latest-release-record-image"><img src="D:\Practice HTML CSS\Music Player\Images\music-art5.jpg"></div>
+                        <div class="latest-release-record-title-date">
+                            <div class="latest-release-record-title">MTM</div>
+                            <div class="latest-release-record-date">30th Jan</div>
+                        </div>
+                        <div class="latest-release-record-dropdown-time">
+                            <div class="latest-release-record-dropdown"><i class="fa-solid fa-ellipsis"></i></div>
+                            <div class="latest-release-record-time">4:44</div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="popular-artists">
+
+                <div id="popular-artist-title">Popoular Artists</div>
+
+                <div id="popular-aritst-body">
+
+                    <div class="popular-artist-container">
+                        <div class="popular-artist-image">
+                            <img src="D:\Practice HTML CSS\Music Player\Images\music-art1.jpg">
+                            <div class="play-button">
+                                <!-- <i class="fa-duotone fa-play"></i> -->
+                            </div>
+                        </div>
+                        <div class="popular-artist-name">Ed Sheeren</div>
+                    </div>
+
+                    <div class="popular-artist-container">
+                        <div class="popular-artist-image">
+                            <img src="D:\Practice HTML CSS\Music Player\Images\music-art2.jpg">
+                            <div class="play-button">
+                                <!-- <i class="fa-duotone fa-play"></i> -->
+                            </div>
+                        </div>
+                        <div class="popular-artist-name">Taylor Swift</div>
+                    </div>
+
+                    <div class="popular-artist-container">
+                        <div class="popular-artist-image">
+                            <img src="D:\Practice HTML CSS\Music Player\Images\music-art3.jpg">
+                            <div class="play-button">
+                                <!-- <i class="fa-duotone fa-play"></i> -->
+                            </div>
+                        </div>
+                        <div class="popular-artist-name">Katy Perry</div>
+                    </div>
+
+                    <div class="popular-artist-container">
+                        <div class="popular-artist-image">
+                            <img src="D:\Practice HTML CSS\Music Player\Images\music-art4.jpg">
+                            <div class="play-button">
+                                <!-- <i class="fa-duotone fa-play"></i> -->
+                            </div>
+                        </div>
+                        <div class="popular-artist-name">Imagine Dragons</div>
+                    </div>
+
+                    <div class="popular-artist-container">
+                        <div class="popular-artist-image">
+                            <img src="D:\Practice HTML CSS\Music Player\Images\music-art5.jpg">
+                            <div class="play-button">
+                                <!-- <i class="fa-duotone fa-play"></i> -->
+                            </div>
+                        </div>
+                        <div class="popular-artist-name">Beyonce</div>
+                    </div>
+
+                    <div class="popular-artist-container">
+                        <div class="popular-artist-image">
+                            <img src="D:\Practice HTML CSS\Music Player\Images\music-art6.jpg">
+                            <div class="play-button">
+                                <!-- <i class="fa-duotone fa-play"></i> -->
+                            </div>
+                        </div>
+                        <div class="popular-artist-name">Doja Cat</div>
+                    </div>
+                    
+                    <div class="popular-artist-container">
+                        <div class="popular-artist-image">
+                            <img src="D:\Practice HTML CSS\Music Player\Images\music-art1.jpg">
+                            <div class="play-button">
+                                <!-- <i class="fa-duotone fa-play"></i> -->
+                            </div>
+                        </div>
+                        <div class="popular-artist-name">Chris Rock</div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div id="station">
+
+            </div>
+            <div id="moods">
+
+            </div>
+            <div id="latest-english">
+
+            </div>
+        </main>
+        <aside>
+            <div id="queue">
+                <div id="queue-heading">
+                    <span id="queue-title">
+                        Queue
+                    </span>
+                    <span id="queue-dropdown">
+                        queue
+                    </span>
+                </div>
+                <div id="scroll-queue">
+                    <div class="queue-song" id="queue-song-1">hello1</div>
+                    <div class="queue-song" id="queue-song-2">hello2</div>
+                    <div class="queue-song" id="queue-song-3">hello3</div>
+                    <div class="queue-song" id="queue-song-4">hello4</div>
+                    <div class="queue-song" id="queue-song-5">hello5</div>
+                    <div class="queue-song" id="queue-song-6">hello6</div>
+                    <div class="queue-song" id="queue-song-7">hello7</div>
+                    <div class="queue-song" id="queue-song-8">hello8</div>
+                    <div class="queue-song" id="queue-song-9">hello9</div>
+                    <div class="queue-song" id="queue-song-10">hello10</div>
+                    <div class="queue-song" id="queue-song-11">hello1</div>
+                    <div class="queue-song" id="queue-song-12">hello2</div>
+                    <div class="queue-song" id="queue-song-13">hello3</div>
+                    <div class="queue-song" id="queue-song-14">hello4</div>
+                    <div class="queue-song" id="queue-song-15">hello5</div>
+                    <div class="queue-song" id="queue-song-16">hello6</div>
+                    <div class="queue-song" id="queue-song-17">hello7</div>
+                    <div class="queue-song" id="queue-song-18">hello8</div>
+                    <div class="queue-song" id="queue-song-19">hello9</div>
+                    <div class="queue-song" id="queue-song-20">hello10</div>
+                </div>
+            </div>
+        </aside>
+    </div>
+    <footer>
+        <div class="active-song-description">
+            <!-- song image -->
+            <div id="song-image">
+                <img src="D:\Practice HTML CSS\Music Player\Images\music-art6.jpg">
+            </div>
+            <!-- song name and author -->
+            <div class="song-desc">
+                <div>
+                    Love Revolution
+                </div>
+                <div>
+                    Lady Musa
+                </div>
+                <!-- heart icon and ban icon -->
+            </div>
+            <div class="heart-and-ban-icon">
+                <span>
+                    <i class="far fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <!-- these are the main player controls -->
+        <div class="player">
+            <div class="controls">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="fas fa-pause-circle"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+            <!-- this is the slider -->
+            <div id="slider">
+                <!-- current time -->
+                <div class="time">
+                    1:55
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <!-- total time -->
+                <div class="time">
+                    4:44
+                </div>
+            </div>
+        </div>
+        <!-- other icons including the volume slider and all -->
+        <div class="extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand-alt"></i>
+            </div>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/11e8d831d2.js" crossorigin="anonymous"></script>
+</body>
+</html>

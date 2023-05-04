@@ -1,0 +1,143 @@
+body {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  #app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  #outcircle {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: blueviolet;
+  }
+  
+  #square {
+    /* position: absolute;
+    margin: 35px; */
+    height: 80px;
+    width: 80px;
+    background-color: white;
+  }
+  
+  #circle {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+  }
+  
+  #triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid white;
+  }
+  
+  #triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 80px solid white;
+  }
+  
+  #triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-right: 80px solid white;
+    border-bottom: 40px solid transparent;
+  }
+  
+  #triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 40px solid transparent;
+    border-left: 80px solid white;
+    border-bottom: 40px solid transparent;
+  }
+  
+  #triangle-topleft {
+    width: 0;
+    height: 0;
+    border-top: 80px solid white;
+    border-right: 80px solid transparent;
+  }
+  
+  #triangle-topright {
+    width: 0;
+    height: 0;
+    border-top: 80px solid white;
+    border-left: 80px solid transparent;
+  }
+  
+  #triangle-bottomleft {
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid white;
+    border-right: 80px solid transparent;
+  }
+  
+  #triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 80px solid white;
+    border-left: 80px solid transparent;
+  }
+  
+  #trapezoid {
+    border-bottom: 80px solid white;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    height: 0;
+    width: 80px;
+  }
+  
+  #parallelogram {
+    width: 80px;
+    height: 80px;
+    transform: skew(20deg);
+    background: white;
+  }
+  
+  #star-six {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 80px solid white;
+    position: relative;
+    bottom: 8px;
+  }
+  
+  #star-six:after {
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 80px solid white;
+    position: absolute;
+    content: "";
+    top: 22px;
+    left: -40px;
+  }
+  
+  .btn {
+    width: 120px;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 5px 2px gray;
+  }
+  

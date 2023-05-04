@@ -1,0 +1,9 @@
+.delete-item:hover{
+    cursor: pointer;
+}
+
+label{
+    font-size: large;
+}
+
+.checkbox-item:checked ~ label{text-decoration: line-through;}
