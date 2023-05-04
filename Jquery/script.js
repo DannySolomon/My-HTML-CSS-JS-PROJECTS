@@ -1,8 +1,4 @@
-//comment
-
 var count=0;
-
-
 let color;
 $('#add').on('click', function()
 {
